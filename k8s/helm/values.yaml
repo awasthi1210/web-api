@@ -17,7 +17,7 @@ image:
 imagePullSecrets: []
 nameOverride: ""
 fullnameOverride: ""
-
+ 
 
 
 serviceAccount:
@@ -30,7 +30,7 @@ serviceAccount:
   name: ""
 
 podAnnotations: 
-  buildNumber : BUILD_NO_PLACE_HOLDER
+  buildNumber : BUILD_NO_PLACE_HOLDER 
 
 podSecurityContext: {}
   # fsGroup: 2000
